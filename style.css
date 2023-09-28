@@ -1,0 +1,274 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+/* Nav bar style */
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+    margin-top: 15px;
+    /* outline: 1px solid ; */
+    margin: auto;
+    width: 80%;
+    height: 70px;
+    font-family: sans-serif;
+}
+
+
+nav h1 {
+    margin-top: 2px;
+    font-size: 30px;
+}
+
+
+nav .pages {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1.6rem;
+    /* outline: 1px solid green; */
+}
+
+
+nav .pages button {
+    padding: 10px;
+    width: 60%;
+}
+
+
+/* Header style  */
+
+header {
+    margin-top: 15px;
+    background-image: url(./Images/Tractor-image.png);
+    background-position: center;
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    height: 80vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    /* outline: 1px solid ; */
+}
+
+
+header .paragraphs {
+    font-family:sans-serif;
+    color: white;
+    padding-left: 70px;
+    /* outline: 1px solid; */
+    margin-top: 50px;
+}
+
+
+.Professionals {
+    font-size: 38px;
+    font-weight: 8;
+}
+
+
+.Leverage {
+    font-size: 20px;
+    margin-top: 10px;
+    font-weight: 50;
+}
+
+
+.expert-btn {
+    width: 16%;
+    margin-top: 10px;
+    padding: 15px;
+    cursor: pointer;
+}
+
+
+.expert-btn:hover {
+    outline: 2px solid white;
+    background-color: transparent;
+    color: white;
+}
+
+
+/* Section style here, [We offer professional services] */
+
+.section1 {
+    /* outline: 1px solid red; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    font-family: sans-serif;
+}
+
+
+.section1 h3 {
+    font-size: 30px;
+    font-weight: 200;
+}
+
+
+.section1 p {
+    font-size: 21px;
+    font-weight: 100;
+    margin-top: 20px;
+}
+
+
+.section1 div {
+    outline: 1px solid green;
+    width: 5%;
+    margin-bottom: 35px;
+}
+
+
+/* Flex Box1 style here  */
+
+.flexBox1 {
+    /* outline: 1px solid ; */
+    display: flex;
+    justify-content: space-between;
+}
+
+
+.flexBox1-child {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 50%;
+    /* outline: 1px solid ; */
+}
+
+
+.flexBox1-child h3 {
+    margin-bottom: 17px;
+}
+
+
+.flexBox1-second-child {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+    width: 50%;
+    /* outline: 1px solid red; */
+}
+
+
+.flexBox1-second-child h3 {
+    margin-bottom: 17px;
+}
+
+
+/* Flex Box2 style here  */
+
+.flexBox2 {
+    /* outline: 1px solid ; */
+    display: flex;
+    justify-content: space-between;
+}
+
+
+.flexBox2-child {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* outline: 1px solid ; */
+    gap: 2rem;
+    width: 50%;
+}
+
+
+.flexBox2-child h3 {
+    margin-bottom: 17px;
+}
+
+
+.flexBox2-second-child {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 2.7rem;
+    width: 50%;
+    /* outline: 1px solid red; */
+}
+
+
+.flexBox2-second-child h3 {
+    margin-bottom: 17px;
+}
+
+
+/* Aside Style Here  */
+
+aside {
+    outline: 1px solid ;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+
+
+/* The second Container Style here  */
+
+.container{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-row-gap: 100px;
+    margin-top: 5%;
+    margin-left: 25%;
+    height: 50vh;
+    
+}
+
+
+img{
+    height: 150px;
+    width: 150px;
+    border-radius: 50%;
+}
+
+
+h2{
+    margin-left: 50px;
+    font-family: sans-serif;
+    font-weight: bolder;
+}
+
+
+.content{
+    height: 100vh;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+
+.cont {
+    height: 61%;
+    width: 45%;
+    margin-bottom: 200px;   
+}
+
+
+.content-cont {
+display: flex;
+justify-content: center;
+align-items: center;
+}
+
+
+h1{
+margin-top: 250px;
+}
